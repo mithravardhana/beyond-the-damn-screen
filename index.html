@@ -10,61 +10,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
 
   <style>
-  html {
-  scroll-behavior: smooth;
-}
-
-.container {
-  position: relative;
-}
-
-.glow {
-  position: fixed;
-  width: 500px;
-  height: 500px;
-  background: #7c3aed;
-  filter: blur(160px);
-  opacity: 0.25;
-  top: 10%;
-  left: 20%;
-  pointer-events: none;
-  z-index: -1;
-}
-
-/* HERO text tuning */
-.container h1 {
-  letter-spacing: 2px;
-}
-
-/* sections spacing + readability */
-section {
+ section {
   max-width: 1000px;
   margin: auto;
+  padding: 120px 20px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.4);
+  margin-top: 40px;
+  border-radius: 20px;
 }
 
-section p {
-  opacity: 0.75;
-  line-height: 1.6;
-}
-
-/* gallery layout */
-#gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
+.btn {
+  background: #1f1a17;
+  color: #f5f0e6;
 }
 
 #gallery img {
-  width: 220px;
-  height: 160px;
-  object-fit: cover;
+  border-radius: 12px;
 }
   </style>
 </head>
 
 <body>
-  <div class="glow"></div>
+
 
  <div class="container">
   <h1>Beyond The Screen</h1>
